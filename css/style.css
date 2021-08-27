@@ -11,9 +11,6 @@
 /**************************************************************/
 
 /*  mohamed  */
-.clear{
-    clear: both;
-}
 /*Start nav*/
 nav{
     padding: 20px;
@@ -87,12 +84,13 @@ nav ul li a:hover{
 /*start section2 (welcome)*/
 #welcome{
     position: relative;
+    background-image: url(../img/pexels-photo-5672483.jpeg);
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
 }
 #welcome .container{
-    background-image: url(../img/pexels-photo-5672483.jpeg);
     margin-bottom: 60px;
     min-height: 608px;
-    background-position: 50% 30%;
     padding-top: 80px;
     height: 150vh;
     line-height: 1.6;
@@ -114,6 +112,12 @@ nav ul li a:hover{
         font-size: 3rem;
     }
 }
+@media (max-width: 991px){
+    #welcome .container h1{
+        letter-spacing: 20px;
+        font-size: 6rem;
+    } 
+}
 
 #welcome .container p{
     max-width: 250px;
@@ -133,44 +137,58 @@ nav ul li a:hover{
 /*start section3 (projects)*/
 #projects .container{
     margin:0;
+    padding: 0;
     padding-top: 50px;
     background-color: #fff;
 }
+
 #projects .container p{
     margin: 20px auto 0;
 }
 #projects .container #firstD{
     background-color: #000;
-    padding: 100px;
+    padding: 30px 30px 30px 80px;
     color: #FFF;
     min-height: 716px;
     font-size: 1rem;
     line-height: 1.6;
+
 }
 #projects .container #firstD h2{
     font-size: 15.625rem;
     letter-spacing: 8px;
     font-weight: 400;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    width: 352px;
 }
 #projects .container #firstD .hr{
     width: 270px;
     height: 31px;
-    margin: 20px auto 0;
+    margin: 20px auto 0 ;
     background-color: #61e54a;
+    text-align: center;
 }
 #projects .container #firstD h3{
     font-weight: 700;
     font-size: 3rem;
     width: 352px;
     margin: 20px auto 0;
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px;
 }
 #projects .container #firstD p{
     width: 352px;
+    word-wrap: break-word;
+    margin: 20px auto 0;
 }
 #projects .container #lastD{
     background-color: #fff;
+    padding: 0;
     padding-top: 100px;
-    padding-left: 200px;
+    padding-left: 50px;
     line-height: 1.6;
 }
 #projects .container #lastD img{
@@ -183,8 +201,14 @@ nav ul li a:hover{
 }
 
 @media (max-width: 768px){
+    #projects .container{
+        margin: 0;
+        padding-right: 0;
+    }
     #projects .container #firstD{
-        padding: 0;
+        width: 100%;
+        text-align: center;
+
     }
     #projects .container #firstD h2{
         font-size: 9.375rem;
@@ -192,13 +216,19 @@ nav ul li a:hover{
 
     #projects .container #firstD p{
         word-wrap: break-word;
+        width: 100%;
     }
     #projects .container #lastD{
-        padding-left: 0;
         margin: 0;
     }
 }
+@media (max-width: 1199px){
+    #projects .container #firstD{
+        padding-left: 30px;
+    }
+}
 /*end section3*/
+
 
 
 
