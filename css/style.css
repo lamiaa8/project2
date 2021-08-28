@@ -11,272 +11,28 @@
 
 /**************************************************************/
 
-/*  mohamed  */
-.clear{
-    clear: both;
-}
-/*Start nav*/
-nav{
-    padding: 20px;
-    width: 250px;
-    position: absolute;
-    left: -300px;
-    top: 0;
-    background-color: #000;
-    opacity: 0.9;
-    color: #fff;
-    z-index: 999;
-    min-height: 100vh;
-    transition: 700ms;
-}
-#bars{
-    padding: 15px;
-    border-radius: 5px;
-    color: #000;
-    opacity: 0.6;
-    display: block;
-    position: absolute;
-    right: 50px;
-    top: 50px;
-    cursor: pointer;
-    font-size: 30px;
-}
-nav .fa-times{
-    float: right;
-    font-size: 30px;
-}
-
-nav ul{
-    padding-top: 50px;
-    text-align: center;
-}
-nav ul li{
-    padding: 10px;
-    font-size: 1rem;
-    line-height: 30px;
-    cursor: pointer;
-    width: 100%;
-}
-nav ul li a{
-    color: #fff;
-    text-decoration: none;
-    text-transform: capitalize;
-    padding-bottom: 15px;
-    width: 100%;
-}
-nav ul li a:hover{
-    color: #fff;
-}
-.open{
-    left: 0;
-}
-
-.opacity{
-    background-color: #000;
-    opacity: 0.7;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    display: none;
-    z-index: 6;
-}
-/*Start nav*/
-
-
-
-
-/*start section2 (welcome)*/
-#welcome{
-    position: relative;
-}
-#welcome .container{
-    background-image: url(../img/pexels-photo-5672483.jpeg);
-    margin-bottom: 60px;
-    min-height: 608px;
-    background-position: 50% 30%;
-    padding-top: 80px;
-    height: 150vh;
-    line-height: 1.6;
-}
-#welcome .container h1{
-    font-size: 10rem;
-    letter-spacing: 40px;
-    font-weight: 400;
-    margin-top: 100px;
-    color: #61e54a;
-    padding: 10px;
-}
-@media (max-width: 768px){
-    #welcome .container{
-        padding-top: 50px;
-    }
-    #welcome .container h1{
-        letter-spacing: 10px;
-        font-size: 3rem;
-    }
-}
-
-#welcome .container p{
-    max-width: 250px;
-    text-align: left;
-    color: #c0c0c0;
-}
-.py-3 img{
-    width: 100px;
-    height: 100px;
-}
-/*End section2*/
-
-
-
-
-
-/*start section3 (projects)*/
-#projects .container{
-    margin:0;
-    padding-top: 50px;
-    background-color: #fff;
-}
-#projects .container p{
-    margin: 20px auto 0;
-}
-#projects .container #firstD{
-    background-color: #000;
-    padding: 100px;
-    color: #FFF;
-    min-height: 716px;
-    font-size: 1rem;
-    line-height: 1.6;
-}
-#projects .container #firstD h2{
-    font-size: 15.625rem;
-    letter-spacing: 8px;
-    font-weight: 400;
-}
-#projects .container #firstD .hr{
-    width: 270px;
-    height: 31px;
-    margin: 20px auto 0;
-    background-color: #61e54a;
-}
-#projects .container #firstD h3{
-    font-weight: 700;
-    font-size: 3rem;
-    width: 352px;
-    margin: 20px auto 0;
-}
-#projects .container #firstD p{
-    width: 352px;
-}
-#projects .container #lastD{
-    background-color: #fff;
-    padding-top: 100px;
-    padding-left: 200px;
-    line-height: 1.6;
-}
-#projects .container #lastD img{
-    width: 400px;
-    height: 497px;
-}
-#projects .container #lastD #lastP{
-    color: #000;
-    width: 281px;
-}
-
-@media (max-width: 768px){
-    #projects .container #firstD{
-        padding: 0;
-    }
-    #projects .container #firstD h2{
-        font-size: 9.375rem;
-    }
-
-    #projects .container #firstD p{
-        word-wrap: break-word;
-    }
-    #projects .container #lastD{
-        padding-left: 0;
-        margin: 0;
-    }
-}
-/*end section3*/
-
-
-
-
+/*  eman  */
 
 /**************************************************************/
-
-
-
-
-/**************************************************************/
-
-/*  emain  */
-/**************************************************************/
-
-/* start section 4 (counter) */
-#counter-box{
-    background-color: #61e54a;
-    color: white;
-    padding: 40px 0;
-}
-/* end section 4 (counter) */
-
-/* start section 5 */
-#Building-Future-sec .container h1{
-    font-size: 3rem;
-    font-weight: 700;
-    width: 200px;
-}
-#Building-Future-sec .container .bold-text{
-    font-weight: 700;
-    font-size: 1.5rem;
-    margin-top: 50px;
-}
-
-#Building-Future-sec .container h4{
-    letter-spacing: 8px;
-    font-weight: 300;
-    font-size: 25px;
-    margin-bottom: 20px;
-    padding-top: 35px;
-}
-
-.content{
-    line-height: 1.6;
-    word-spacing: 1px;
-    margin-right: 90px;
-    text-align: justify;
-    font-family: 'Open Sans',sans-serif;
-    margin-bottom: 50px;
-}
-/* end section 5 */
-
-/* start section 6 */
-#section-6 .container{
-    padding-bottom: 100px;
-}
-#section-6 span{
-    display: block;
-    font-weight: bold;
-}
-/* end section 6 */
-@media(max-width:1200px)and (min-width: 765px){
-    #section-6 img{
-        width: 340px;
-    }
-}
-/**************************************************************/
-
-/*  lamiaa  */
-/**************************************************************/
-
 
 
 /**************************************************************/
 
 /*  mariam  */
+
+/**************************************************************/
+
+
+/**************************************************************/
+
+/* mohamed */
+
+/**************************************************************/
+
+
+/**************************************************************/
+
+/*  lamiaa  */
 /**************************************************************/
 
 
