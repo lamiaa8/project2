@@ -4,9 +4,10 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
-    overflow-x: hidden;
 }
-
+.container{
+    overflow: hidden;
+}
 
 /**************************************************************/
 
@@ -214,10 +215,58 @@ nav ul li a:hover{
 /*  emain  */
 /**************************************************************/
 
+/* start section 4 (counter) */
+#counter-box{
+    background-color: #61e54a;
+    color: white;
+    padding: 40px 0;
+}
+/* end section 4 (counter) */
 
+/* start section 5 */
+#Building-Future-sec .container h1{
+    font-size: 3rem;
+    font-weight: 700;
+    width: 200px;
+}
+#Building-Future-sec .container .bold-text{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
 
+#Building-Future-sec .container h4{
+    letter-spacing: 8px;
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding-top: 35px;
+}
 
+.content{
+    line-height: 1.6;
+    word-spacing: 1px;
+    margin-right: 90px;
+    text-align: justify;
+    font-family: 'Open Sans',sans-serif;
+    margin-bottom: 50px;
+}
+/* end section 5 */
 
+/* start section 6 */
+#section-6 .container{
+    padding-bottom: 100px;
+}
+#section-6 span{
+    display: block;
+    font-weight: bold;
+}
+/* end section 6 */
+@media(max-width:1200px)and (min-width: 765px){
+    #section-6 img{
+        width: 340px;
+    }
+}
 /**************************************************************/
 
 /*  lamiaa  */
