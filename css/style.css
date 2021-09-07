@@ -4,7 +4,7 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
-    overflow-x: hidden;
+   
 }
 
 
@@ -243,6 +243,66 @@ nav ul li a:hover{
 
 /*  emain  */
 /**************************************************************/
+/* start section 4 (counter) */
+#counter-box{
+    background-color: #61e54a;
+    color: white;
+    padding: 10rem 0;
+}
+#counter-box h2.counter {
+    font-weight: 800;
+    margin-bottom: 1rem;
+    letter-spacing: 3px;
+}
+/* end section 4 (counter) */
+
+/* start section 5 */
+#Building-Future-sec .container h1{
+    font-size: 3rem;
+    font-weight: 700;
+    width: 200px;
+}
+#Building-Future-sec .container .bold-text{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
+
+#Building-Future-sec .container h4{
+    letter-spacing: 8px;
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding-top: 35px;
+}
+
+.content{
+    line-height: 1.6;
+    word-spacing: 1px;
+    margin-right: 90px;
+    text-align: justify;
+    font-family: 'Open Sans',sans-serif;
+    margin-bottom: 50px;
+}
+/* end section 5 */
+
+/* start section 6 */
+#section-6 .container{
+    padding-bottom: 100px;
+}
+#section-6 span{
+    display: block;
+    font-weight: bold;
+}
+/* end section 6 */
+@media(max-width:1200px)and (min-width: 765px){
+    #section-6 img{
+        width: 340px;
+    }
+}
+
+
+
 
 
 
@@ -253,6 +313,298 @@ nav ul li a:hover{
 /*  lamiaa  */
 /**************************************************************/
 
+#lamiaaSection .section7{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#lamiaaSection .section7 .imgDIv{
+    margin: 15px;
+
+ }
+ #lamiaaSection .section7 .textDIV {
+    
+    line-break: inherit;
+    
+    
+
+ }
+#lamiaaSection .section7 .top_text{
+    background-color: #61E54A;
+    padding: 5px;
+    margin: 10px;
+    margin-bottom: 100px;
+    color: #fff;
+}
+#lamiaaSection .section7 .textDIV .top_text h2{
+    margin: 40px 20px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 3rem;
+} 
+#lamiaaSection .section7 .textDIV .botto_text{
+    padding: 20px 40px 20px 30px;
+    line-height: 1.6;
+    letter-spacing: .5px;
+
+}
+#lamiaaSection .section7 .textDIV .botto_text h5{
+    margin-top: 50px;
+    letter-spacing: .7px;
+    line-height: 1.3;
+}
+
+.imgDIv img{
+    width: auto;
+
+}
+@media(max-width:1200px){
+    #lamiaaSection .section7{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .imgDIv{
+       
+        transform: scale(.8);
+    }
+    .imgDIv img{
+        width: 120%;
+
+    }
+    .textDIV {
+         margin-left: 20px; 
+        line-break: inherit; 
+        
+    }
+    #lamiaaSection .section7 .textDIV .top_text h2 {
+        margin: 20px 5px;
+        font-family: inherit;
+        font-weight: 600;
+        font-size: 2rem;
+    }
+    #lamiaaSection .section7 .top_text {
+        
+        padding: 5px;
+        margin: 0; 
+        margin-bottom: 20px; 
+        
+    }
+    
+
+}
+
+@media(max-width:767px)
+{
+    #lamiaaSection .section7{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .textDIV {
+        margin-left: 0px !important;
+    }
+
+}
+
+@media(max-width:500px)
+{
+    #lamiaaSection .section7{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .textDIV {
+        margin-left: 1rem !important;
+        width: 80%;
+    }
+
+}
+
+
+/*/////////////////   section8    //////////////////////*/
+
+#lamiaaSection .section8{
+    display: grid;
+    padding: 200px 30px;
+    grid-template-columns: 1fr 2fr;
+}
+#lamiaaSection .section8 .fag{
+    width: 50%;
+    margin-right: 50px;
+
+
+}
+#lamiaaSection .section8 .itemDiv {
+    width: 70%;
+}
+
+
+#lamiaaSection .section8 .itemDiv .accordion-item {
+    background-color: #fff;
+    border:none;
+
+}
+.accordion-button::after{
+    display: none;
+}
+
+
+#lamiaaSection .section8 .accordion-button {
+    position: relative;
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    align-items: center;
+    width: 150%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #212529;
+    text-align: left;
+    
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
+}
+.accordion-button:focus{
+    box-shadow: none;
+
+}
+#lamiaaSection .section8 .accordion-button #button_acc{
+    background-color:rgb(162 161 161) !important ;
+}
+#lamiaaSection .section8 button svg{
+    margin-left: 50%;
+
+}
+.accordion-button:not(.collapsed) {
+    background-color: #898b8d;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-body {
+    padding: 1.5rem 3rem;
+    width: 150%;
+    margin-bottom: 2rem;
+}
+button:active{
+    background-color: #E5E5E5;
+}
+@media(max-width:1200px)
+{
+    #lamiaaSection .section8{
+        display: grid;
+        padding: 200px 30px;
+        grid-template-columns:  1fr;
+    }
+    #lamiaaSection .section8 .fag{
+        width: 60%;
+        margin-right: 50px;
+        margin-bottom: 2rem;
+    
+    
+    }
+
+
+
+}
+
+
+
+
+
+
+
+/*/////////////////   section9    //////////////////////*/
+
+
+#lamiaaSection .section9{
+    background-color: #010a14;
+    color: #fff;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+#lamiaaSection .section9 a{
+    color: #fff;
+}
+#lamiaaSection .section9 a:hover{
+    color: darkgray;
+}
+#lamiaaSection .section9 .p_top{
+    width: 60%;
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+}
+#lamiaaSection .section9 img{
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 50px 40%;
+    background-color: chartreuse;
+    width: 250px;
+    height: 250px;
+}
+#lamiaaSection .section9 button.flickity-button.flickity-prev-next-button.previous{
+    background-color: chartreuse;
+}
+#lamiaaSection .section9 button.flickity-button.flickity-prev-next-button.next{
+    background-color: chartreuse;
+}
+#lamiaaSection .section9 .p1 {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(218, 214, 214);
+
+}
+#lamiaaSection .section9 .p2 {
+    width: 60%;
+    margin: auto;
+    color: rgb(218, 214, 214);
+    text-align: center;
+    font-size: 15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* If you're using images in your slider, add this CSS to ensure they take up 100% of the available area */
+
+ .carousel-cell {
+    width: 100%;
+    
+}
+
+.carousel-cell img {
+	width: 100%;
+	height: auto;
+}
+
+/* Ensures that Flickity waits until CSS has loaded to calculate the height of the cells */
+ .carousel:after {
+  content: 'flickity';
+  display: none; /* hide :after */
+}
+
+
+
+
+
+
 
 
 /**************************************************************/
@@ -260,7 +612,79 @@ nav ul li a:hover{
 /*  mariam  */
 /**************************************************************/
 
+#contactHelp{
+    height:60rem;
+    text-align: center;
+    background-color: #E5E5E5;
+}
+
+#contactHelp .help{
+    width:32rem;
+    padding:3rem 0;
+}
 
 
+#contactHelp .help .h1{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
 
+#contactHelp .contactInfo .contactItem{
+    height:13rem;
+    width:24rem;
+    margin:2rem;
+    padding:1.5rem 0;
+    background-color: rgb(255, 255, 255);
 
+}
+#contactHelp .contactInfo .contactItem svg{
+    color:#61E54A;
+    font-size:3rem;
+    padding:0.5rem 0;
+}
+
+#contactHelp .contactInfo .contactItem h4{
+    padding:1rem 0;
+}
+#contactHelp .contactInfo .contactItem a{
+    color:#61E54A;
+}
+
+#contactHelp .contactInfo .contactItem a:hover{
+    text-decoration: underline;
+}
+@media(max-width:992px)
+{
+    #contactHelp{
+        height:90rem;
+
+    }
+}
+@media(max-width:768px)
+{
+    #contactHelp .help .h1{
+        font-size: 2rem;
+
+    }
+}
+
+/*****************************************/
+footer{
+    height:18rem;
+    background-color: #333333;
+    text-align: center;
+    padding:4rem 0;
+    color:#FFF0DE;
+
+}
+
+footer div{
+    padding:4rem 0 0; 
+}
+
+footer a,
+footer a:hover
+{
+    color:#a7a39f;
+}
